@@ -1,14 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Informacion from './components/Informacion';
+
 
 
 function App() {
   
 
   return (
-    <section className='container my-5'>
-      <h1>“Hello World”</h1>
-    </section>
+    <main className=' container my-5'>
+      <Informacion></Informacion>
+    </main>
     
   )
 }
